@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project com.tinfig.spark.imaging.desktop">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="sterwill-sparkcon.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="com.tinfig.spark.imaging.desktop.Main"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="/home/sterwill/hg/spark/com.tinfig.spark.imaging.desktop/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/spark/com.tinfig.spark.imaging.desktop/libs/javacv-20110820/javacpp.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/spark/com.tinfig.spark.imaging.desktop/libs/javacv-20110820/javacv-linux-x86.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/spark/com.tinfig.spark.imaging.desktop/libs/javacv-20110820/javacv-linux-x86_64.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/spark/com.tinfig.spark.imaging.desktop/libs/javacv-20110820/javacv-macosx-x86_64.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/spark/com.tinfig.spark.imaging.desktop/libs/javacv-20110820/javacv-windows-x86.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/spark/com.tinfig.spark.imaging.desktop/libs/javacv-20110820/javacv-windows-x86_64.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/spark/com.tinfig.spark.imaging.desktop/libs/javacv-20110820/javacv.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/spark/com.tinfig.spark.imaging.desktop/libs/javaosc.jar"/>
+            <fileset dir="/home/sterwill/hg/common/com.tinfig.util/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/common/com.tinfig.util/libs/commons-cli-1.2/commons-cli-1.2.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/common/com.tinfig.util/libs/commons-configuration-1.7/commons-configuration-1.7.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/common/com.tinfig.util/libs/commons-lang-2.6/commons-lang-2.6.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/common/com.tinfig.util/libs/commons-logging-1.1.1/commons-logging-1.1.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/common/com.tinfig.util/libs/commons-logging-1.1.1/commons-logging-adapters-1.1.1.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="/home/sterwill/hg/common/com.tinfig.util/libs/commons-collections-3.2.1/commons-collections-3.2.1.jar"/>
+        </jar>
+    </target>
+</project>

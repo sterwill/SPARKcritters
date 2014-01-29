@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="libs/javacv-20110820/javacpp.jar"/>
+	<classpathentry kind="lib" path="libs/javacv-20110820/javacv.jar" sourcepath="libs/javacv-src-20110820.zip"/>
+	<classpathentry kind="lib" path="libs/javaosc.jar" sourcepath="libs/javaosc-src.zip"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/com.tinfig.util"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
